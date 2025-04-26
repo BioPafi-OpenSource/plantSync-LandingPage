@@ -309,6 +309,60 @@
     font-size: 20px;
     color: #333;
   }
+/*Footer*/
+.footer {
+  background-color: #2F5D50;
+  color: white;
+  padding: 40px 20px 20px;
+  font-family: "Poppins", sans-serif;
+}
+
+.footer-logo {
+  text-align: left;
+  margin-bottom: 30px;
+}
+
+.footer-logo img {
+  width: 120px;
+  height: auto;
+}
+
+.footer-content {
+  display: flex;
+  align-items: left;
+  gap: 30px;
+}
+
+.footer-section h4 {
+  margin-bottom: 10px;
+}
+
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-section ul li {
+  margin-bottom: 5px;
+}
+
+.footer-section ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 0.9em;
+}
+
+.footer-bottom {
+  margin-top: 30px;
+  text-align: center;
+  font-size: 0.9em;
+}
+
+.footer-bottom a {
+  color: white;
+  text-decoration: underline;
+}
+
 
   /*Escondemos el botón de menú en pantallas grandes*/
   .open-menu {
@@ -385,6 +439,11 @@
   
     .about-image {
       flex: 0 0 auto;
+    }
+    .footer-content {
+      flex-direction: row;
+      justify-content: center;
+      align-items: flex-start;
     }
 }
 
