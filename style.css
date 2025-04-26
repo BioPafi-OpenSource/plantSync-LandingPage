@@ -179,7 +179,7 @@
     padding: 4rem 3rem;
     margin: 4rem;
     background-color: #F5F3EC;
-    height: 70vh;
+    height: 75vh;
     width: 90%;
     margin: 0 auto;
 
@@ -268,11 +268,47 @@
     background-color: #D27C55;
   }
 
-
-
-
-
-
+   /*About us*/
+  .about-us {
+    padding: 60px 20px;
+    background-color: white;
+    font-family: "Poppins", sans-serif;
+    height: 60vh;
+    align-items: space;
+  }
+  
+  .about-container {
+    max-width: 1200px;
+    margin: auto;
+  }
+  
+  .about-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .about-header h2 {
+    font-size: 60px;
+    color: #2F5D50;
+  }
+  
+  .about-logo {
+    width: 100px;
+    height: auto;
+  }
+  
+  .about-text {
+    text-align: center;
+  }
+  
+  .about-text p {
+    margin-bottom: 10px;
+    font-size: 20px;
+    color: #333;
+  }
 
   /*Escondemos el botón de menú en pantallas grandes*/
   .open-menu {
@@ -330,11 +366,27 @@
       margin-bottom: 3rem;
     }
 
+    .plans{
+      height: auto;
+      width: 100%;
+      margin: 0 auto;
+    }
+
+    .about-container {
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+    }
+  
+    .about-text {
+      flex: 1;
+      text-align: left;
+    }
+  
+    .about-image {
+      flex: 0 0 auto;
+    }
 }
-
-
-
-
 
   @media (max-width: 1000px){
     .hero-image {
