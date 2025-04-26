@@ -363,6 +363,20 @@
   text-decoration: underline;
 }
 
+.terms-conditions{
+  display: flex;
+  text-align: left;
+  font-size: 2rem;
+  width: 70ch;
+  font-family: "Nunito", sans-serif;
+}
+
+
+.terms-conditions h1{
+  color: #2F5D50;
+  font-size: 4rem;
+}
+
 
   /*Escondemos el botón de menú en pantallas grandes*/
   .open-menu {
