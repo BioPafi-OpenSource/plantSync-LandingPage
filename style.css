@@ -495,3 +495,134 @@
     }
 
   }
+
+  /* About Product Section */
+.about-product {
+    padding: 60px 20px;
+    background-color: #F5F3EC;
+    font-family: "Poppins", sans-serif;
+    scroll-margin-top: 10rem;
+}
+
+.about-product-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.about-product h2 {
+    font-size: 60px;
+    color: #2F5D50;
+    margin-bottom: 40px;
+}
+
+/* About Team Section */
+.about-team {
+    padding: 60px 20px;
+    background-color: white;
+    font-family: "Poppins", sans-serif;
+    scroll-margin-top: 10rem;
+}
+
+.about-team-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.about-team h2 {
+    font-size: 60px;
+    color: #2F5D50;
+    margin-bottom: 40px;
+}
+
+/* Video Container Styles */
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 Aspect Ratio */
+    height: 0;
+    overflow: hidden;
+    margin: 0 auto 40px;
+    max-width: 800px;
+}
+
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .about-product h2,
+    .about-team h2 {
+        font-size: 40px;
+    }
+    
+    .about-product-text p,
+    .about-team-text p {
+        font-size: 18px;
+    }
+}
+
+/* Plan Button Styles */
+.plan-button {
+    display: block;
+    margin: 1.5rem auto 0;
+    padding: 0.75rem 1.5rem;
+    background-color: #F5F3EC;
+    color: #2F5D50;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+    text-align: center;
+    font-family: "Nunito", sans-serif;
+    border: 2px solid transparent;
+    transition: all 0.3s ease;
+    width: 80%;
+}
+
+.plan-1 .plan-button {
+    background-color: #F5F3EC;
+    color: #6FBF73;
+    border-color: #6FBF73;
+}
+
+.plan-2 .plan-button {
+    background-color: #F5F3EC;
+    color: #2F5D50;
+    border-color: #2F5D50;
+}
+
+.plan-3 .plan-button {
+    background-color: #F5F3EC;
+    color: #D27C55;
+    border-color: #D27C55;
+}
+
+.plan-button:hover {
+    background-color: #2F5D50;
+    color: #F5F3EC;
+    transform: translateY(-3px);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+/* Adjust plan height to accommodate button */
+.plan {
+    padding-bottom: 2rem;
+    position: relative;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .plan-button {
+        width: 90%;
+        padding: 0.6rem 1.2rem;
+        font-size: 0.9rem;
+    }
+}
